@@ -1,5 +1,5 @@
 ﻿using System;
-
+//CHECKED ✏️
 namespace Misal
 {
     internal class ConsoleTab
@@ -7,7 +7,7 @@ namespace Misal
         static void Main(string[] args)
         {
             #region ArrayMax
-            int[,] massiv = new int[3, 2] { { -1, 20 }, { 31, 4 }, { -544, 61 } };
+            int[,] massiv = new int[3, 2] { { -1, 20 }, { 31, 4 }, { -544, 61 } };  //niye 2d array istifade etmisen? 
             int max = massiv[0, 0];
             for (int i = 0; i < 3; i++)
             {
@@ -46,7 +46,7 @@ namespace Misal
             public void Find(int[] arr, int n)
             {
                 bool exists = false;
-                int result = Array.IndexOf(arr, n);
+                int result = Array.IndexOf(arr, n);   //hileci !!!! 
 
                 foreach (var i in arr)
                 {
@@ -80,11 +80,11 @@ namespace Misal
                     {
                         int temp = Massiv[j];
                         Massiv[j] = Massiv[i];
-                        Massiv[i] = temp;
+                        Massiv[i] = temp;                //mohtesem ! 👍
                     }
                 }
-                SortedMassiv[i] = Massiv[i];
-          
+                SortedMassiv[i] = Massiv[i];   // bu olmasada olar 
+           
             }
 
             foreach (var item in SortedMassiv)
