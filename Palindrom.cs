@@ -1,5 +1,5 @@
 using System;
-
+//hazir funksiyasiz yaz! :<
 
 internal class 
 {
@@ -10,10 +10,10 @@ internal class
 
         string IntToString = Eded.ToString();
         char[] charMassiv = IntToString.ToCharArray();
-        Array.Reverse(charMassiv);
-        string Reversed = new string(charMassiv);
+        Array.Reverse(charMassiv);  //hazir funksiya :<
+        string Reversed = new string(charMassiv); //
 
-        bool Palindrom = IntToString.Equals(Reversed);
+        bool Palindrom = IntToString.Equals(Reversed);   //hazir funksiya :<
 
         if (Palindrom)
         {
