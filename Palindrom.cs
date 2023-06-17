@@ -13,7 +13,7 @@ internal class
         Array.Reverse(charMassiv);
         string Reversed = new string(charMassiv);
 
-        bool Palindrom = ConvertFromInt.Equals(Reversed);
+        bool Palindrom = IntToString.Equals(Reversed);
 
         if (Palindrom)
         {
